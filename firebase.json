@@ -1,4 +1,12 @@
 {
+<<<<<<< HEAD
+=======
+  "firestore": {
+    "database": "(default)",
+    "rules": " firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+>>>>>>> 54dfc97b3d2433bd17315eb0f06bc58098219e2d
   "hosting": {
     "public": "public",
     "ignore": [
@@ -12,5 +20,30 @@
         "destination": "/index.html"
       }
     ]
+<<<<<<< HEAD
+=======
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "storage": {
+      "port": 9199
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    },
+    "singleProjectMode": true
+>>>>>>> 54dfc97b3d2433bd17315eb0f06bc58098219e2d
   }
 }
